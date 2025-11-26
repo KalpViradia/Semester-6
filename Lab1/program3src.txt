@@ -1,0 +1,4 @@
+Sample text refers to placeholder content used to demonstrate or preview design, format, or functionality before the final content is added. It is often generic and lacks significant meaning, serving to test layout, readability, and user experience without the distraction of meaningful content.
+ One of the most widely used forms of sample text is Lorem ipsum, a pseudo-Latin placeholder text derived from a corrupted version of Cicero's De finibus bonorum et malorum, originally written in the 1st century BC.
+ The text is used in graphic design, publishing, and web development to allow page layouts to be designed independently of the final copy.
+ A common form of Lorem ipsum reads: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua".
