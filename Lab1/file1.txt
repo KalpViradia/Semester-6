@@ -1,0 +1,2 @@
+First file created from command
+Append file
