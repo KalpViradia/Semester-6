@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      #div {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div"></div>
+    <br />
+    <button onclick="changeProperties()">Change Properties</button>
+
+    <script>
+      function changeProperties() {
+        if (document.getElementById("div").style.backgroundColor == "green") {
+          document.getElementById("div").style.backgroundColor = "blue";
+          document.getElementById("div").style.height = "150px";
+          document.getElementById("div").style.width = "150px";
+        } else {
+          document.getElementById("div").style.backgroundColor = "green";
+          document.getElementById("div").style.height = "100px";
+          document.getElementById("div").style.width = "100px";
+        }
+      }
+    </script>
+  </body>
+</html>

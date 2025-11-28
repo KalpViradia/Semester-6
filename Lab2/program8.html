@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body style="font-family: Arial">
+    <h1>Keyboard Event</h1>
+    <p id="output"></p>
+    <p id="vowel"></p>
+
+    <script>
+      document.addEventListener("keydown", function (event) {
+        document.body.style.backgroundColor = "green";
+        let key = event.key.toLowerCase();
+
+        document.getElementById("output").textContent =
+          "Key Code: " + event.keyCode;
+
+        if ("aeiou".includes(key)) {
+          document.getElementById("vowel").textContent =
+            "You pressed a vowel: " + key;
+        } else {
+          document.getElementById("vowel").textContent = "";
+        }
+      });
+
+      document.addEventListener("keyup", function () {
+        document.body.style.backgroundColor = "blue";
+      });
+    </script>
+  </body>
+</html>

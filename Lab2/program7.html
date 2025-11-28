@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <h1>CRUD Operation</h1>
+    <label>Name</label>
+    <input id="val" />
+    <button onclick="add()">Add</button>
+
+    <table id="t">
+      <tr>
+        <th>Index</th>
+        <th>Value</th>
+        <th>Actions</th>
+      </tr>
+    </table>
+
+    <script>
+      let arr = [];
+      let ei = -1;
+
+      function add() {
+        let v = document.getElementById("val").value;
+        if (v === "") return;
+        if (ei === -1) arr.push(v);
+        else {
+          arr[ei] = v;
+          ei = -1;
+        }
+        document.getElementById("val").value = "";
+        show();
+      }
+
+      function show() {
+        let t = document.getElementById("t");
+        t.innerHTML = "<tr><th>Index</th><th>Value</th><th>Actions</th></tr>";
+        arr.forEach((x, i) => {
+          t.innerHTML +=
+            "<tr><td>" +
+            i +
+            "</td><td>" +
+            x +
+            "</td><td><button onclick='edit(" +
+            i +
+            ")'>Edit</button>" +
+            "<button onclick='del(" +
+            i +
+            ")'>Delete</button></td></tr>";
+        });
+      }
+
+      function edit(i) {
+        document.getElementById("val").value = arr[i];
+        ei = i;
+      }
+
+      function del(i) {
+        arr.splice(i, 1);
+        show();
+      }
+    </script>
+  </body>
+</html>

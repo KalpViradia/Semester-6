@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <p>Capture mouse event</p>
+    <script>
+      document.addEventListener("mousedown", (e) => {
+        console.log("Mouse down:", e.clientX, e.clientY);
+      });
+
+      document.addEventListener("mouseup", (e) => {
+        console.log("Mouse up:", e.clientX, e.clientY);
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        console.log("Mouse moved:", e.clientX, e.clientY);
+      });
+    </script>
+  </body>
+</html>

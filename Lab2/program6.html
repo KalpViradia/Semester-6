@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #eef1f5;
+        margin: 0;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .form-box {
+        background: #ffffff;
+        width: 360px;
+        padding: 25px 30px;
+        border-radius: 8px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      h2 {
+        margin-top: 0;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .field-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 6px;
+        color: #444;
+      }
+
+      input {
+        width: 100%;
+        padding: 9px;
+        font-size: 14px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        transition: 0.2s border;
+      }
+
+      input:focus {
+        border-color: #4c8bf5;
+        outline: none;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px 0;
+        background: #4c8bf5;
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 8px;
+      }
+
+      button:hover {
+        background: #3f75d8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-box">
+      <h2>Student Registration</h2>
+
+      <form name="regForm" onsubmit="return validateForm()">
+        <div class="field-group">
+          <label>Name</label>
+          <input type="text" name="name" />
+        </div>
+
+        <div class="field-group">
+          <label>Age</label>
+          <input type="number" name="age" />
+        </div>
+
+        <div class="field-group">
+          <label>Email</label>
+          <input type="text" name="email" />
+        </div>
+
+        <div class="field-group">
+          <label>Course</label>
+          <input type="text" name="course" />
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script>
+      function validateForm() {
+        const name = document.forms["regForm"]["name"].value.trim();
+        const age = document.forms["regForm"]["age"].value;
+        const email = document.forms["regForm"]["email"].value.trim();
+        const course = document.forms["regForm"]["course"].value.trim();
+
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+        if (!name || !age || !email || !course) {
+          alert("Please fill all the fields.");
+          return false;
+        }
+
+        if (age <= 0) {
+          alert("Age must be greater than 0.");
+          return false;
+        }
+
+        if (!emailPattern.test(email)) {
+          alert("Please enter a valid email.");
+          return false;
+        }
+
+        alert("Registration completed.");
+        return true;
+      }
+    </script>
+  </body>
+</html>
