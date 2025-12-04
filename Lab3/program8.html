@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>JavaScript Class Demo</h2>
+
+    <script>
+        class Person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+
+            displayInfo() {
+                return `Name: ${this.name}, Age: ${this.age}`;
+            }
+        }
+
+        const person1 = new Person("Abc", 25);
+        const person2 = new Person("Def", 30);
+
+        document.body.innerHTML += "<p>" + person1.displayInfo() + "</p>";
+        document.body.innerHTML += "<p>" + person2.displayInfo() + "</p>";
+
+        console.log(person1.displayInfo());
+        console.log(person2.displayInfo());
+    </script>
+</body>
+</html>

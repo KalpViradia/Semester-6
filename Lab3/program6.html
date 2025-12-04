@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Array and Object Destructuring Demo</h2>
+
+    <script>
+        const colors = ["Red", "Green", "Blue"];
+
+        const [firstColor, secondColor, thirdColor] = colors;
+
+        document.body.innerHTML += "<h3>Array Destructuring:</h3>";
+        document.body.innerHTML += "<p>First Color: " + firstColor + "</p>";
+        document.body.innerHTML += "<p>Second Color: " + secondColor + "</p>";
+        document.body.innerHTML += "<p>Third Color: " + thirdColor + "</p>";
+
+        const person = {
+            name: "Abc",
+            age: 22,
+            city: "New York"
+        };
+
+        const { name, age, city } = person;
+
+        document.body.innerHTML += "<h3>Object Destructuring:</h3>";
+        document.body.innerHTML += "<p>Name: " + name + "</p>";
+        document.body.innerHTML += "<p>Age: " + age + "</p>";
+        document.body.innerHTML += "<p>City: " + city + "</p>";
+    </script>
+</body>
+</html>

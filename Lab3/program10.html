@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Mouse Event Demo</h2>
+    <p>Click anywhere in the browser window (left or right mouse button).</p>
+
+    <script>
+        document.addEventListener("mousedown", function(event) {
+            let message = "";
+
+            switch (event.button) {
+                case 0:
+                    message = "Left Clicked";
+                    break;
+                case 2:
+                    message = "Right Clicked";
+                    break;
+                default:
+                    message = "Other Button Clicked";
+            }
+
+            alert(message);
+            console.log(message);
+        });
+
+        document.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

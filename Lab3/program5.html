@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>for...of Loop Demo</h2>
+
+    <script>
+        const fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+        document.body.innerHTML += "<h3>Fruits List:</h3>";
+
+        for (const fruit of fruits) {
+            document.body.innerHTML += "<p>" + fruit + "</p>";
+        }
+
+        console.log("Fruits using for...of:");
+        for (const fruit of fruits) {
+            console.log(fruit);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #111;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+
+      #startBtn {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: #4caf50;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+
+      #game {
+        width: 400px;
+        height: 400px;
+        background: #222;
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+        border: 2px solid #555;
+        position: relative;
+      }
+
+      .snake {
+        background: #4caf50;
+        border-radius: 4px;
+      }
+
+      .food {
+        background: #ff3333;
+        border-radius: 50%;
+      }
+
+      #score {
+        margin-top: 20px;
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Snake Game</h2>
+    <button id="startBtn">START GAME</button>
+    <div id="game"></div>
+    <div id="score">Score: 0</div>
+
+    <script>
+      const game = document.getElementById("game");
+      const scoreDisplay = document.getElementById("score");
+      const startBtn = document.getElementById("startBtn");
+
+      const gridSize = 20;
+      let snake, dx, dy, food, score, gameInterval;
+
+      startBtn.addEventListener("click", startGame);
+      document.addEventListener("keydown", changeDirection);
+
+      function startGame() {
+        snake = [{ x: 10, y: 10 }];
+        dx = 1;
+        dy = 0;
+        food = randomFood();
+        score = 0;
+        scoreDisplay.textContent = "Score: 0";
+
+        if (gameInterval) clearInterval(gameInterval);
+        gameInterval = setInterval(gameLoop, 150);
+      }
+
+      function gameLoop() {
+        moveSnake();
+
+        if (isGameOver()) {
+          clearInterval(gameInterval);
+          alert("Game Over! Your score: " + score);
+          return;
+        }
+
+        if (ateFood()) {
+          score++;
+          scoreDisplay.textContent = "Score: " + score;
+          snake.push({ ...snake[snake.length - 1] });
+          food = randomFood();
+        }
+
+        drawGame();
+      }
+
+      function moveSnake() {
+        const head = {
+          x: snake[0].x + dx,
+          y: snake[0].y + dy,
+        };
+        snake.unshift(head);
+        snake.pop();
+      }
+
+      function changeDirection(e) {
+        if (e.key === "ArrowUp" && dy !== 1) {
+          dx = 0;
+          dy = -1;
+        }
+        if (e.key === "ArrowDown" && dy !== -1) {
+          dx = 0;
+          dy = 1;
+        }
+        if (e.key === "ArrowLeft" && dx !== 1) {
+          dx = -1;
+          dy = 0;
+        }
+        if (e.key === "ArrowRight" && dx !== -1) {
+          dx = 1;
+          dy = 0;
+        }
+      }
+
+      function ateFood() {
+        return snake[0].x === food.x && snake[0].y === food.y;
+      }
+
+      function isGameOver() {
+        const head = snake[0];
+
+        if (
+          head.x < 0 ||
+          head.x >= gridSize ||
+          head.y < 0 ||
+          head.y >= gridSize
+        )
+          return true;
+
+        for (let i = 1; i < snake.length; i++) {
+          if (head.x === snake[i].x && head.y === snake[i].y) return true;
+        }
+
+        return false;
+      }
+
+      function randomFood() {
+        return {
+          x: Math.floor(Math.random() * gridSize),
+          y: Math.floor(Math.random() * gridSize),
+        };
+      }
+
+      function drawGame() {
+        game.innerHTML = "";
+
+        snake.forEach((part) => {
+          const block = document.createElement("div");
+          block.classList.add("snake");
+          block.style.gridColumnStart = part.x + 1;
+          block.style.gridRowStart = part.y + 1;
+          game.appendChild(block);
+        });
+
+        const foodEl = document.createElement("div");
+        foodEl.classList.add("food");
+        foodEl.style.gridColumnStart = food.x + 1;
+        foodEl.style.gridRowStart = food.y + 1;
+        game.appendChild(foodEl);
+      }
+    </script>
+  </body>
+</html>

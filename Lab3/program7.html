@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Arrow Function Demo</h2>
+
+    <script>
+        const add = (a, b) => a + b;
+
+        const greeting = name => "Hello, " + name + "!";
+
+        const square = num => {
+            return num * num;
+        };
+
+        document.body.innerHTML += "<p>Add(5, 3): " + add(5, 3) + "</p>";
+        document.body.innerHTML += "<p>Greeting('Alice'): " + greeting("Alice") + "</p>";
+        document.body.innerHTML += "<p>Square(4): " + square(4) + "</p>";
+
+        console.log("Add:", add(5, 3));
+        console.log("Greeting:", greeting("Alice"));
+        console.log("Square:", square(4));
+    </script>
+</body>
+</html>

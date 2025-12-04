@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Spread Operator Demo</h2>
+
+    <script>
+        const arr1 = [1, 2, 3];
+        const arr2 = [4, 5, 6];
+
+        const combined = [...arr1, ...arr2];
+
+        console.log("Array 1:", arr1);
+        console.log("Array 2:", arr2);
+        console.log("Combined using spread operator:", combined);
+
+        document.body.innerHTML += 
+            "<p><strong>Array 1:</strong> " + arr1 + "</p>" +
+            "<p><strong>Array 2:</strong> " + arr2 + "</p>" +
+            "<p><strong>Combined Array:</strong> " + combined + "</p>";
+    </script>
+</body>
+</html>
