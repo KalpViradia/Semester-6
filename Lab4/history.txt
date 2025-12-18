@@ -1,0 +1,1000 @@
+  964  ./a.out
+  965  gcc primerange.c
+  966  ./a.out
+  967  gcc pattern.c
+  968  ./a.out
+  969  gcc pattern.c
+  970  ./a.out
+  971  gcc pattern.c
+  972  ./a.out
+  973  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/helloWorld.py"
+  974  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/address.py"
+  975  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/addition.py"
+  976  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/avg.py"
+  977  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/inputbyuser.py"
+  978  /bin/python3
+  979  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/circle.py"
+  980  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/simpleInterest.py"
+  981  /bin/python3
+  982  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/simpleInterest.py"
+  983  /bin/python3 "/media/student/Ravi Nirmal/mca-3/python/Circumference.py"
+  984  /bin/python3
+  985  ls
+  986  cd MCA
+  987  ls
+  988  cd cd C Program
+  989  cd cd "C Program"
+  990  ls
+  991  cd Public
+  992  ls
+  993  cd ..
+  994  cd 'C Program'
+  995  gcc SwapValues.c
+  996  ./a.out
+  997  gcc SwapValues.c
+  998  ./a.out
+  999  gcc Swap0with1.c
+ 1000  ./a.out
+ 1001  ls
+ 1002  cd 'C Program'
+ 1003  gcc Swap0with1.c
+ 1004  ./a.out
+ 1005  gcc Swap0with1.c
+ 1006  ./a.out
+ 1007  ls
+ 1008  cd 'C Program'
+ 1009  gcc MaxMinInArray.c
+ 1010  ./a.out
+ 1011  gcc Fibonacci.c
+ 1012  ./a.out
+ 1013  gcc Fibonacci.c
+ 1014  ./a.out
+ 1015  gcc Fibonacci.c
+ 1016  ./a.out
+ 1017  gcc Fibonacci.c
+ 1018  ./a.out
+ 1019  gcc ReverseFibonacci.c
+ 1020  ./a.out
+ 1021  gcc ReverseFibonacci.c
+ 1022  ./a.out
+ 1023  gcc SecondHighest.c
+ 1024  ./a.out
+ 1025  gcc CountVowelsConsonants.c
+ 1026  cd 'C Program'
+ 1027  gcc CountVowelsConsonants.c
+ 1028  gcc SumOf1DArray.c
+ 1029  ./a.out
+ 1030  gcc SumOf1DArray.c
+ 1031  ./a.out
+ 1032  gcc SumOf1DArray.c
+ 1033  gcc SumOf2DArray.c
+ 1034  ./a.out
+ 1035  jupyter notebook
+ 1036  packettracer
+ 1037  pip install numpy
+ 1038  pip install numpy
+ 1039  /home/student/Desktop
+ 1040  gcc time.c
+ 1041  ls
+ 1042  cd Desktop/
+ 1043  /time.c
+ 1044  ls
+ 1045  time.c
+ 1046  /gcc time.c
+ 1047  ./a.out
+ 1048  a.out time.c
+ 1049  gcc 10.c
+ 1050  ./a.out
+ 1051  gcc 8.c
+ 1052  ./a.out
+ 1053  gcc 8.c
+ 1054  ./a.out
+ 1055  gcc 8.c
+ 1056  ./a.out
+ 1057  gcc 11.c
+ 1058  ./a.out
+ 1059  gcc 11.c
+ 1060  ./a.out
+ 1061  gcc 12.c
+ 1062  ./a.out
+ 1063  gcc 12.c
+ 1064  /a.out
+ 1065  ./a.out
+ 1066  gcc 13.c
+ 1067  ./a.out
+ 1068  gcc 13.c
+ 1069  ./a.out
+ 1070  gcc 14.c
+ 1071  ./a.out
+ 1072  gcc address.c
+ 1073  ./a.out
+ 1074  gcc sum_array.c
+ 1075  ./a.out
+ 1076  gcc sum_array.c
+ 1077  ./a.out
+ 1078  gcc string_length.c
+ 1079  ./a.out
+ 1080  gcc string_length.c
+ 1081  ./a.out
+ 1082  gcc string_length.c
+ 1083  ./a.out
+ 1084  gcc string_length.c
+ 1085  ./a.out
+ 1086  gcc string_length.c
+ 1087  ./a.out
+ 1088  gcc string_length.c
+ 1089  ./a.out
+ 1090  gcc string_length.c
+ 1091  ./a.out
+ 1092  gcc string_length.c
+ 1093  ./a.out
+ 1094  gcc swap.c
+ 1095  gcc swap2.c
+ 1096  ./a.out
+ 1097  gcc swap2.c
+ 1098  ./a.out
+ 1099  gcc swap2.c
+ 1100  ./a.out
+ 1101  gcc swap2.c
+ 1102  ./a.out
+ 1103  jupyter notebook
+ 1104  gcc prg5.c
+ 1105  .\a. out
+ 1106  .\a.out
+ 1107  ./a.out
+ 1108  gcc prg5.c
+ 1109  ./a.out
+ 1110  gcc prg7.c
+ 1111  ./a.out
+ 1112  gcc prg8.c
+ 1113  ./a.out
+ 1114  packettracer
+ 1115  gcc p1.c 
+ 1116  ./a.out 
+ 1117  gcc p3_1.c 
+ 1118  ./a.out 
+ 1119  gcc p2.c 
+ 1120  ./a.out 
+ 1121  gcc p2.c 
+ 1122  ./a.out 
+ 1123  gcc p2.c 
+ 1124  ./a.out 
+ 1125  gcc p2.c 
+ 1126  ./a.out 
+ 1127  gcc p2.c 
+ 1128  ./a.out 
+ 1129  gcc p2.c 
+ 1130  ./a.out 
+ 1131  gcc p2.c 
+ 1132  ./a.out 
+ 1133  gcc p2.c 
+ 1134  ./a.out 
+ 1135  gcc p4.c 
+ 1136  ./a.out 
+ 1137  gcc p5.c 
+ 1138  ./a.out 
+ 1139  gcc p5.c 
+ 1140  ./a.out 
+ 1141  gcc p4.c 
+ 1142  ./a.out 
+ 1143  gcc p5.c 
+ 1144  ./a.out 
+ 1145  gcc p5.c 
+ 1146  gcc p2.c 
+ 1147  ./a.out 
+ 1148  gcc p2.c 
+ 1149  ./a.out 
+ 1150  gcc p2.c 
+ 1151  ./a.out 
+ 1152  gcc p2.c 
+ 1153  ./a.out 
+ 1154  gcc p2.c 
+ 1155  ./a.out 
+ 1156  gcc p2.c 
+ 1157  ./a.out 
+ 1158  gcc p2.c 
+ 1159  ./a.out 
+ 1160  gcc p2.c 
+ 1161  ./a.out 
+ 1162  gcc p4.c
+ 1163  ./a.out 
+ 1164  gcc p2.c
+ 1165  ./a.out 
+ 1166  gcc p2.c
+ 1167  ./a.out 
+ 1168  gcc p3_2.c
+ 1169  ./a.out 
+ 1170  gcc p3_2.c
+ 1171  ./a.out 
+ 1172  gcc p3_2.c
+ 1173  ./a.out 
+ 1174  gcc p3_2.c
+ 1175  ./a.out 
+ 1176  gcc p3_2.c
+ 1177  ./a.out 
+ 1178  gcc p3_2.c
+ 1179  ./a.out 
+ 1180  gcc p3_2.c
+ 1181  ./a.out 
+ 1182  gcc p3_2.c
+ 1183  ./a.out 
+ 1184  gcc p3_2.c
+ 1185  ./a.out 
+ 1186  gcc p3_2.c
+ 1187  ./a.out 
+ 1188  gcc p3_2.c
+ 1189  ./a.out 
+ 1190  gcc p3_2.c
+ 1191  ./a.out 
+ 1192  gcc p3_2.c
+ 1193  ./a.out 
+ 1194  gcc p3_2.c
+ 1195  ./a.out 
+ 1196  gcc p3_2.c
+ 1197  ./a.out 
+ 1198  gcc p3_2.c
+ 1199  ./a.out 
+ 1200  gcc p3_2.c
+ 1201  ./a.out 
+ 1202  packettreacer
+ 1203  cisco packettracer
+ 1204  packettracer
+ 1205  ping google.com
+ 1206  nslookup
+ 1207  nslookup netflix.com
+ 1208  gcc prg1.c
+ 1209  cd Test
+ 1210  gcc prg1.c
+ 1211  ./a.out
+ 1212  gcc prg1.c
+ 1213  ./a.out
+ 1214  gcc prg1.c
+ 1215  ./a.out
+ 1216  gcc prg1.c
+ 1217  ./a.out
+ 1218  gcc prg1.c
+ 1219  ./a.out
+ 1220  gcc prg1.c
+ 1221  ./a.out
+ 1222  gcc prg1.c
+ 1223  ./a.out
+ 1224  gcc prg1.c
+ 1225  ./a.out
+ 1226  gcc prg1.c
+ 1227  ./a.out
+ 1228  gcc prg1.c
+ 1229  ./a.out
+ 1230  gcc prg1.c
+ 1231  ./a.out
+ 1232  gcc prg1.c
+ 1233  ./a.out
+ 1234  gcc prg1.c
+ 1235  ./a.out
+ 1236  gcc prg1.c
+ 1237  ./a.out
+ 1238  gcc prg1.c
+ 1239  ./a.out
+ 1240  gcc prg1.c
+ 1241  ./a.out
+ 1242  gcc prg1.c
+ 1243  ./a.out
+ 1244  gcc prg1.c
+ 1245  ./a.out
+ 1246  gcc prg1.c
+ 1247  gcc prg5.c
+ 1248  ./a.out
+ 1249  gcc prg5.c
+ 1250  ./a.out
+ 1251  gcc prg5.c
+ 1252  ./a.out
+ 1253  gcc prg5.c
+ 1254  ./a.out
+ 1255  gcc prg5.c
+ 1256  ./a.out
+ 1257  gcc prg5.c
+ 1258  cd Test
+ 1259  gcc prg5.c
+ 1260  cd Test
+ 1261  ./a.out
+ 1262  cd Test
+ 1263  gcc prg5.c
+ 1264  ./a.out
+ 1265  gcc prg5.c
+ 1266  ./a.out
+ 1267  gcc prg5.c
+ 1268  ./a.out
+ 1269  gcc prg5.c
+ 1270  ./a.out
+ 1271  gcc prg5.c
+ 1272  ./a.out
+ 1273  gcc prg5.c
+ 1274  ./a.out
+ 1275  gcc prg5.c
+ 1276  ./a.out
+ 1277  gcc prg5.c
+ 1278  ./a.out
+ 1279  gcc prg5.c
+ 1280  ./a.out
+ 1281  gcc prg5.c
+ 1282  ./a.out
+ 1283  gcc prg5.c
+ 1284  ./a.out
+ 1285  gcc prg5.c
+ 1286  ./a.out
+ 1287  gcc prg5.c
+ 1288  ./a.out
+ 1289  gcc prg5.c
+ 1290  ./a.out
+ 1291  gcc prg5.c
+ 1292  ./a.out
+ 1293  gcc prg5.c
+ 1294  ./a.out
+ 1295  clr
+ 1296  cl
+ 1297  gcc prg5.c
+ 1298  cd Test
+ 1299  gcc prg5.c
+ 1300  ./a.out
+ 1301  gcc prg3.c
+ 1302  ./a.out
+ 1303  gcc prg1.c
+ 1304  ./a.out
+ 1305  gcc prg1.c
+ 1306  ./a.out
+ 1307  gcc prg1.c
+ 1308  ./a.out
+ 1309  gcc prg1.c
+ 1310  ./a.out
+ 1311  gcc prg1.c
+ 1312  ./a.out
+ 1313  gcc prg1.c
+ 1314  ./a.out
+ 1315  gcc prg1.c
+ 1316  ./a.out
+ 1317  cd pattern
+ 1318  gcc invertedPyramid.c
+ 1319  a./out
+ 1320  ./a,out
+ 1321  ./a.out
+ 1322  ./a,out
+ 1323  gcc invertedPyramid.c
+ 1324  ./a.out
+ 1325  gcc invertedPyramid.c
+ 1326  ./a.out
+ 1327  gcc invertedPyramid.c
+ 1328  ./a.out
+ 1329  gcc invertedPyramid.c
+ 1330  ./a.out
+ 1331  gcc invertedPyramid.c
+ 1332  ./a.out
+ 1333  gcc invertedPyramid.c
+ 1334  ./a.out
+ 1335  gcc invertedPyramid.c
+ 1336  ./a.out
+ 1337  gcc invertedPyramid.c
+ 1338  ./a.out
+ 1339  gcc invertedPyramid.c
+ 1340  ./a.out
+ 1341  gcc invertedPyramid.c
+ 1342  ./a.out
+ 1343  gcc invertedPyramid.c
+ 1344  ./a.out
+ 1345  gcc invertedPyramid.c
+ 1346  ./a.out
+ 1347  gcc invertedPyramid.c
+ 1348  ./a.out
+ 1349  gcc invertedPyramid.c
+ 1350  ./a.out
+ 1351  gcc invertedPyramid.c
+ 1352  ./a.out
+ 1353  gcc invertedPyramid.c
+ 1354  ./a.out
+ 1355  gcc invertedPyramid.c
+ 1356  ./a.out
+ 1357  gcc invertedPyramid.c
+ 1358  ./a.out
+ 1359  gcc invertedPyramid.c
+ 1360  ./a.out
+ 1361  gcc invertedPyramid.c
+ 1362  ./a.out
+ 1363  gcc invertedPyramid.c
+ 1364  ./a.out
+ 1365  gcc invertedPyramid.c
+ 1366  ./a.out
+ 1367  gcc invertedPyramid.c
+ 1368  ./a.out
+ 1369  gcc invertedPyramid.c
+ 1370  ./a.out
+ 1371  gcc invertedPyramid.c
+ 1372  ./a.out
+ 1373  gcc invertedPyramid.c
+ 1374  ./a.out
+ 1375  gcc invertedPyramid.c
+ 1376  ./a.out
+ 1377  gcc invertedPyramid.c
+ 1378  ./a.out
+ 1379  gcc invertedPyramid.c
+ 1380  ./a.out
+ 1381  gcc num_pyramid.c
+ 1382  ./a.out
+ 1383  gcc num_pyramid.c
+ 1384  ./a.out
+ 1385  gcc num_pyramid.c
+ 1386  ./a.out
+ 1387  gcc num_pyramid.c
+ 1388  ./a.out
+ 1389  gcc num_pyramid.c
+ 1390  ./a.out
+ 1391  gcc num_pyramid.c
+ 1392  ./a.out
+ 1393  gcc num_pyramid.c
+ 1394  ./a.out
+ 1395  gcc num_pyramid.c
+ 1396  ./a.out
+ 1397  gcc num_pyramid.c
+ 1398  ./a.out
+ 1399  gcc num_pyramid.c
+ 1400  ./a.out
+ 1401  gcc num_pyramid.c
+ 1402  ./a.out
+ 1403  gcc num_pyramid.c
+ 1404  ./a.out
+ 1405  gcc num_pyramid.c
+ 1406  ./a.out
+ 1407  gcc num_pyramid.c
+ 1408  ./a.out
+ 1409  gcc num_pyramid.c
+ 1410  ./a.out
+ 1411  gcc num_pyramid.c
+ 1412  ./a.out
+ 1413  gcc num_pyramid.c
+ 1414  ./a.out
+ 1415  gcc hollowTriangle.c
+ 1416  ./a.out
+ 1417  gcc hollowTriangle.c
+ 1418  ./a.out
+ 1419  gcc hollowTriangle.c
+ 1420  ./a.out
+ 1421  gcc hollowTriangle.c
+ 1422  ./a.out
+ 1423  gcc hollowTriangle.c./a.out
+ 1424  gcc hollowTriangle.c
+ 1425  ./a.out
+ 1426  gcc hollowTriangle.c
+ 1427  ./a.out
+ 1428  gcc hollowTriangle.c
+ 1429  ./a.out
+ 1430  gcc hollowTriangle.c
+ 1431  ./a.out
+ 1432  gcc invertedPyramid.c
+ 1433  ./a.out
+ 1434  gcc invertedPyramid.c
+ 1435  gcc butterfly.c
+ 1436  gcc invertedPyramid.c
+ 1437  gcc butterfly.c
+ 1438  ./a.out
+ 1439  gcc butterfly.c
+ 1440  ./a.out
+ 1441  gcc butterfly.c
+ 1442  ./a.out
+ 1443  gcc butterfly.c
+ 1444  ./a.out
+ 1445  packettracer
+ 1446  npx create-react-app crud-app
+ 1447  sudo apt install npm
+ 1448  cd..
+ 1449  CD OOPJ
+ 1450  cd
+ 1451  javac Bankdemo.java
+ 1452  java Bankdemo.java
+ 1453  javacBankdemo.java
+ 1454  javac Bankdemo.
+ 1455  java Bankdemo
+ 1456  javac -d . Myclass.java
+ 1457  javac -d . Myclass2.java
+ 1458  javac packagedemo.java
+ 1459  java packagedemo
+ 1460  javac -d . Myclass.java
+ 1461  javac -d . Myclass2.java
+ 1462  javac packagedemo.java
+ 1463  java packagedemo
+ 1464  javac -d . Myclass.java
+ 1465  javac pro2.java
+ 1466  java pro2
+ 1467  javapro4.java
+ 1468  javac pro4.java
+ 1469  java pro4
+ 1470  javac pro2.java
+ 1471  java pro2
+ 1472  javac pro2.java
+ 1473  java pro2
+ 1474  javac pro2.java
+ 1475  java pro2
+ 1476  javac pro3.java
+ 1477  java pro3
+ 1478  javac pro3.java
+ 1479  java pro3
+ 1480  javac pro3.java
+ 1481  java pro3
+ 1482  javac pro3_1.java
+ 1483  java pro3_1
+ 1484  javac pro3_1.java
+ 1485  java pro3_1
+ 1486  javac pro3_1.java
+ 1487  java pro3_1
+ 1488  javac pro3_1.java
+ 1489  java pro3_1
+ 1490  javac pro3_1.java
+ 1491  java pro3_1
+ 1492  javac pro2.java
+ 1493  java pro2
+ 1494  javac pro2.java
+ 1495  java pro2
+ 1496  javac pro2.java
+ 1497  java pro2
+ 1498  javac pro2.java
+ 1499  java pro2
+ 1500  javac pro4.java
+ 1501  javac pro4.java
+ 1502  java pro4
+ 1503  javac pro4.java
+ 1504  java pro4
+ 1505  javac pro3_1.java
+ 1506  java pro3_1
+ 1507  javac pro2.java
+ 1508  java pro2
+ 1509  javac pro2.java
+ 1510  java pro2
+ 1511  javac pro2.java
+ 1512  java pro2
+ 1513  javac pro2.java
+ 1514  java pro2
+ 1515  javac pro1.java
+ 1516  java pro1
+ 1517  javac pro2.java
+ 1518  java pro2
+ 1519  javac pro2.java
+ 1520  java pro2
+ 1521  javac pro2.java
+ 1522  java pro2
+ 1523  javac pro1.java
+ 1524  java pro1
+ 1525  java
+ 1526  cd desktop
+ 1527  cd ~/Desktop
+ 1528  cd kartaya
+ 1529  cd /kartaya
+ 1530  cd.
+ 1531  cd..
+ 1532  exit
+ 1533  cd ~/Desktop/Kartavya
+ 1534  cd ~/Desktop
+ 1535  cd ~/kartavya
+ 1536  cd ~/Desktop/kartavya
+ 1537  exit
+ 1538  clear
+ 1539  aaa
+ 1540  cls
+ 1541  clear
+ 1542  cd /home/student/Desktop/KARTAVYA ; /usr/bin/env /usr/lib/jvm/jdk-22-oracle-x64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/student/.config/Code/User/workspaceStorage/53a734c8c9478db6afa359315441ef50/redhat.java/jdt_ws/KARTAVYA_af77cf7d/bin practical3 
+ 1543  cd /home/student/Desktop/KARTAVYA ; /usr/bin/env /usr/lib/jvm/jdk-22-oracle-x64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/student/.config/Code/User/workspaceStorage/53a734c8c9478db6afa359315441ef50/redhat.java/jdt_ws/KARTAVYA_af77cf7d/bin practical3 
+ 1544  clear
+ 1545  cd /home/student/Desktop/KARTAVYA ; /usr/bin/env /usr/lib/jvm/jdk-22-oracle-x64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/student/.config/Code/User/workspaceStorage/53a734c8c9478db6afa359315441ef50/redhat.java/jdt_ws/KARTAVYA_af77cf7d/bin practical3 
+ 1546  aaa
+ 1547  LEAR
+ 1548  clear
+ 1549  cd /home/student/Desktop/KARTAVYA ; /usr/bin/env /usr/lib/jvm/jdk-22-oracle-x64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/student/.config/Code/User/workspaceStorage/53a734c8c9478db6afa359315441ef50/redhat.java/jdt_ws/KARTAVYA_af77cf7d/bin practical1 
+ 1550  clks
+ 1551  cls
+ 1552  clear
+ 1553  ls
+ 1554  clear
+ 1555  mkdir rutva
+ 1556  ls
+ 1557  ls --help
+ 1558  cd rutva
+ 1559  mkdir delete
+ 1560  cd ..
+ 1561  ls -l
+ 1562  cd /
+ 1563  cd /home/student/rutva
+ 1564  echo "heellloo"
+ 1565  date
+ 1566  date %B
+ 1567  date --help
+ 1568  date %B
+ 1569  %B
+ 1570  date "%B"
+ 1571  date "+%B"
+ 1572  cd root
+ 1573  cat f1
+ 1574  cat file.txt
+ 1575  cat> file.txt
+ 1576  cat>file.txt
+ 1577  cat file.txt
+ 1578  ls -
+ 1579  ls
+ 1580  ls -l
+ 1581  cat>> file.txt
+ 1582  cat file.txt
+ 1583  date>>log.txt
+ 1584  cat log.txt
+ 1585  cat log+file.txt
+ 1586  cat combine.txt
+ 1587  cat file.txt log.tx>combine.txt
+ 1588  cat file.txt log.txt>combine.txt
+ 1589  cat combine.txt
+ 1590  date --help
+ 1591  date "+R"
+ 1592  date "+%R"
+ 1593  date "+%s"
+ 1594  date "+%C"
+ 1595  date "+%c"
+ 1596  date "+%%c"
+ 1597  date "%%"
+ 1598  echo "todays dateus "
+ 1599  echo "todays dateus  ${date} "
+ 1600  echo "todays date is  ${date} "
+ 1601  echo "todays date is  ${date}"
+ 1602  cat dt.txt
+ 1603  cat> dt.txt
+ 1604  pwd
+ 1605  mkdir
+ 1606  mkdir v2
+ 1607  ls
+ 1608  cd v2
+ 1609  cd..
+ 1610  cd
+ 1611  cd v
+ 1612  mkdir demo
+ 1613  cd demo
+ 1614  cd ..
+ 1615  cd demo
+ 1616  mkdir "v 3"
+ 1617  cd /
+ 1618  cd v
+ 1619  cd /home/student/v/demo
+ 1620  cd ..
+ 1621  ls
+ 1622  date
+ 1623  cal
+ 1624  cat
+ 1625  cat>v1.txt
+ 1626  cat v1
+ 1627  cat v1.txt
+ 1628  echo "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii hellooooooooooooooooooooooooooooooooooooooooooooooooooo"
+ 1629  date  --help
+ 1630  man --help
+ 1631  date +"%Y-%m-%d %H-%M-%S"
+ 1632  echo "Date of today is $date"
+ 1633  echo "Date of today is $(date)"
+ 1634  cat>v2.txt
+ 1635  cat v2.txt v1.txt>v3.txt
+ 1636  cat v3.txt
+ 1637  ls -l
+ 1638  date>>date.txt
+ 1639  ls
+ 1640  cat date.txt
+ 1641  echo "date of today is $(date)" >"$(date +'%Y-%m-%d %H-%M-%S')".txt
+ 1642  ls
+ 1643  cat '2025-11-25 13-20-21.txt'  
+ 1644  cal
+ 1645  cal>>calender.txt
+ 1646  ls
+ 1647  cat calender.txt
+ 1648  ls --help>>manual.txt                     
+ 1649  cat manual.txt
+ 1650  cd karan
+ 1651  cls
+ 1652  cd home/student/Desktop/KARANDDDDDDDDDDDDDDDDDDDDDDDDDDDCCDDDAAABBB===
+ 1653  cd /home/student/Desktop/KARAN
+ 1654  cls
+ 1655  cd /home/student/Desktop/KARAN
+ 1656  echo hello
+ 1657  cd /home/student/Desktop/KARAN
+ 1658  pwd
+ 1659  passwd
+ 1660  pwd
+ 1661  mkdir KARAN
+ 1662  cd KARAN
+ 1663  cd..
+ 1664  cd KARAN
+ 1665  cd ..
+ 1666  cd KARAN
+ 1667  cd /
+ 1668  ls
+ 1669  pwd
+ 1670  cd /home/student/Desktop/KARAN
+ 1671  cd home/student/Desktop/KARAN
+ 1672  cd /home/student/Desktop/KARAN
+ 1673  cd /home/student/Desktop/KARAN
+ 1674  cd KARAN
+ 1675  cd /
+ 1676  clear
+ 1677  cd /home/student/KARAN
+ 1678  help
+ 1679  manu
+ 1680  clear
+ 1681  manu
+ 1682  manuel
+ 1683  clear
+ 1684  ml ls
+ 1685  clear
+ 1686  mn /ls
+ 1687  mn/ls
+ 1688  clear
+ 1689  man ls
+ 1690  ls --help
+ 1691  clear
+ 1692  date
+ 1693  cal
+ 1694  clear
+ 1695  date  --help
+ 1696  date "+%Y-%m-%d %H:%M:%S  "
+ 1697  echo printf
+ 1698  echo "Today's date is %(date)"
+ 1699  echo "Today's date is $(date)"
+ 1700  echo "This year's calender is $(cal)"
+ 1701  cat>FileName.txt
+ 1702  date> log.txt
+ 1703  ls\
+ 1704  cat log.txt
+ 1705  cal> log2.txt
+ 1706  cat log2.txt
+ 1707  cat log.txt log2.txt>combine.txt
+ 1708  cat combine.tst
+ 1709  cat combine.txt
+ 1710  cal>> log2.txt
+ 1711  cat log2.txt
+ 1712  datetime
+ 1713  date
+ 1714  date>> log.txt
+ 1715  cat log.txt
+ 1716  clear
+ 1717  echo "Today's date is $(date)">$(date+"%Y-%m-%d")
+ 1718  echo "Today's date is $(date)">$(date+"%Y-%m-%d").txt
+ 1719  echo "Today's date is $(date)">"$(date+"%Y-%m-%d")".txt
+ 1720  echo "Today's date is $(date)">"$(date+"%Y-%m-%d %H.%M.%S")".txt
+ 1721  echo "Today's date is $(date)">"$(date+'%Y-%m-%d %H.%M.%S')".txt
+ 1722  echo "Today's date is $(date)">"$(date+'%Y-%m-%d %H.%M.%S').txt"
+ 1723  echo "Today's date is $(date)">"$(date +'%Y-%m-%d %H.%M.%S')".txt
+ 1724  ls
+ 1725  echo "Today's date is $(cal)">"$(date +'%Y-%m-%d %H.%M.%S')".txt
+ 1726  echo "Today's date is $(man)">"this is custom messege "
+ 1727  echo "Today's date is $(man ls)">"this is custom messege "
+ 1728  echo "Today's date is $(man ls)">>"this is custom messege "
+ 1729  echo.e "compelete list$(man ls)" 
+ 1730  echo .e "compelete list$(man ls)" 
+ 1731  pwd
+ 1732  cd..
+ 1733  clear
+ 1734  ped
+ 1735  clear
+ 1736  pwd
+ 1737  pwd
+ 1738  cd..
+ 1739  cd Desktop
+ 1740  cd ..
+ 1741  pwd
+ 1742  cd OOPJ
+ 1743  cd mypackage
+ 1744  cd Mypackage
+ 1745  cd ..
+ 1746  dir
+ 1747  ipconfig
+ 1748  iconfig
+ 1749  clear
+ 1750  ls
+ 1751  ls -l
+ 1752  ls -a
+ 1753  ls -r
+ 1754  ls -t
+ 1755  ls -s
+ 1756  man
+ 1757  man ls
+ 1758  man cal
+ 1759  echo "Jineesh"
+ 1760  echo -n
+ 1761  echo -n "Jineesh"
+ 1762  cal
+ 1763  echo -e "Jineesh\n Desai"
+ 1764  cal -3
+ 1765  cal -1
+ 1766  cal -6
+ 1767  cal -12
+ 1768  cal -y
+ 1769  cal -M
+ 1770  cal-j
+ 1771  cal -j
+ 1772  cal -j -y
+ 1773  cal -m
+ 1774  cal
+ 1775  ncal -s
+ 1776  ncal -S
+ 1777  ncal -M
+ 1778  date
+ 1779  date +%a
+ 1780  date +%A
+ 1781  date +%b
+ 1782  date +%B
+ 1783  date +%c
+ 1784  date +%C
+ 1785  date +%w
+ 1786  date +%f
+ 1787  date +%F
+ 1788  date +%%
+ 1789  date +%w
+ 1790  date +%W
+ 1791  date +%H
+ 1792  date +%h
+ 1793  date +%d
+ 1794  date +%y
+ 1795  date +%Y
+ 1796  date +%M
+ 1797  date +%s
+ 1798  date +%S
+ 1799  date +%Z
+ 1800  date +%z
+ 1801  date +%v
+ 1802  date +%V
+ 1803  date +%P
+ 1804  date
+ 1805  echo "28/11/2025"
+ 1806  date +%d\5m\5y
+ 1807  date +%d\%m\%y
+ 1808  date +%d/%m/%y
+ 1809  who
+ 1810  man cat
+ 1811  cat >Fromula1.txt
+ 1812  cat Fromula1.txt
+ 1813  cat >f1.txt
+ 1814  cat >f2.txt
+ 1815  cat f1.txt f2.txt
+ 1816  cat f1.txt f2.txt >f3.txt
+ 1817  cat f3.txt
+ 1818  cat >f1.txt
+ 1819  cat f1.txt f2.txt
+ 1820  cat >>f1.txt
+ 1821  cat f1.txt f2.txt
+ 1822  cat f1.txt >>f4.txt Printed By Jineesh Desai
+ 1823  cat f1.txt >>f4.txt 
+ 1824  cat f4.txt
+ 1825  cat -n  f4.txt
+ 1826  date +%t
+ 1827  cat >time.txt
+ 1828  cat time.txt > date +%\d%\m%\y%\H%\14
+ 1829  echo "File Created at $(date)" > "hello.txt"
+ 1830  cat hello.txt
+ 1831  echo "File Created at $(date)" > "$(date).txt"
+ 1832  cat date.txt
+ 1833  date >> log.txt
+ 1834  cat log.txt
+ 1835  date >> log.txt
+ 1836  cat log.txt
+ 1837  date >> log.txt
+ 1838  cat log.txt
+ 1839  mkdir Vishva
+ 1840  cd Vishva
+ 1841  cat >file1.txt
+ 1842  cat >file2.txt
+ 1843  cmp file1.txt file2.txt
+ 1844  cmp -b file1.txt file2.txt
+ 1845  cmp -i 7 file1.txt file2.txt
+ 1846  cmp -s file1.txt file2.txt
+ 1847  cmp -n 3 file1.txt file2.txt
+ 1848  cmp -l file1.txt file2.txt
+ 1849  cat f1.txt
+ 1850  cat > f1.txt
+ 1851  cat > f2.txt
+ 1852  comm f1.txt f2.txt
+ 1853  cat > f1.txt
+ 1854  cat > f2.txt
+ 1855  comm f1.txt f2.txt
+ 1856  comm -1 f1.txt f2.txt
+ 1857  comm -2 f1.txt f2.txt
+ 1858  comm -3 f1.txt f2.txt
+ 1859  cat > f1.txt
+ 1860  cat > f2.txt
+ 1861  diff f1.txt f2.txt
+ 1862  chmod 764 f2.txt
+ 1863  chmod u=rwx,g=rw,o=r f3.txt
+ 1864  cat > f3.txt
+ 1865  chmod u=rwx,g=rw,o=r f3.txt
+ 1866  ls -l
+ 1867  cd /home/student/Vishva
+ 1868  ls
+ 1869  chmod 777 dos
+ 1870  chmod 777 f2.txt
+ 1871  ls -l
+ 1872  cat > f1.txt
+ 1873  cat > f2.txt
+ 1874  wc f1.txt
+ 1875  wc -L  f1.txt
+ 1876  wc -l f1.txt
+ 1877  cat > f1.txt
+ 1878  sleep 2
+ 1879  wc -w f1.txt
+ 1880  wc -c f1.txt
+ 1881  kill -l
+ 1882  ps-f
+ 1883  ps -f
+ 1884  ps
+ 1885  kill 4763
+ 1886  man ln
+ 1887  cd Vishva
+ 1888  mkdir lab-4
+ 1889  cd lab-4
+ 1890  cat > file1.txt
+ 1891  cat file1.txt
+ 1892  ln file1.txt file_link
+ 1893  ls file1.txt file_link
+ 1894  ls -li
+ 1895  ls -s
+ 1896  head -n5 file1.txt
+ 1897  tail -n file1.txt
+ 1898  ls
+ 1899  tail file1.txt
+ 1900  tail -n4 file1.txt
+ 1901  sort file1.txt
+ 1902  sort -c file1.txt
+ 1903  sort -r  file1.txt
+ 1904  sort -nr file1.txt
+ 1905  sort -k file1.txt
+ 1906  uniq file1.txt
+ 1907  uniq -u file1.txt
+ 1908  uniq -c file1.txt
+ 1909  uniq -d file1.txt
+ 1910  uniq -D file1.txt
+ 1911  uniq -i file1.txt
+ 1912  cat file1.txt |head -10 |nl
+ 1913  cat file1.txt | tail -20 | sort |uniq
+ 1914  cat file1.txt | tail -20 | sort |uniq -u
+ 1915  cat >file2.txt
+ 1916  cat > file3.txt
+ 1917  cat >file2.txt
+ 1918  cat file2.txt
+ 1919  ls
+ 1920  find file1.txt
+ 1921  find file*
+ 1922  find f*
+ 1923  find -newer file1.txt
+ 1924  ls-l
+ 1925  ls -l
+ 1926  find -user Vishva
+ 1927  find -user student
+ 1928  find .-name "*.txt" |head -5|write student
+ 1929  find .-file2 "*.txt" |head -5|write student
+ 1930  history | tail | wall
+ 1931  wall -keep
+ 1932  history | tail -n 10
+ 1933  mkdir dir
+ 1934  _
+ 1935  mkdir dir_link
+ 1936  find dir_link -name "*.sh"
+ 1937  head -n 5 file1.txt ; tail-n5 file1.txt
+ 1938  head -n 5 file1.txt ; tail-n 5 file1.txt
+ 1939  head -n 5 file1.txt ; tail -n 5 file1.txt
+ 1940  ls -s
+ 1941  ls -li
+ 1942  cd 713_Sem-6
+ 1943  cd desktop/713_Sem-6
+ 1944  lf
+ 1945  cd
+ 1946  cd 713_Sem-6
+ 1947  cd /home/student/Desktop/713_Sem-6
+ 1948  clear
+ 1949  cd Lab4
+ 1950  cat > file1.txt
+ 1951  head file1.txt
+ 1952  head -n 20 file1.txt
+ 1953  tail file1.txt
+ 1954  tail -n 20 file1.txt
+ 1955  clear
+ 1956  ln file1.txt file1_link
+ 1957  ls -li
+ 1958  tail -n 20 file1.txt | nl
+ 1959  ls -s
+ 1960  clear
+ 1961  find . -name "*.txt"
+ 1962  history
+ 1963  history > history.txt

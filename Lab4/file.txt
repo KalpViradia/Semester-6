@@ -1,0 +1,12 @@
+1. Create a hard link named file_link to a file file.txt, then display the first 10 lines of file.txt with line
+numbers.
+2. Display the last 20 lines of log.txt, sort the lines, and remove duplicate entries.
+3. Find all .txt files in the current directory, display the first 5 lines of the search result, and send the
+result to user john using write.
+4. Display the last 10 commands from the command history and broadcast them to all logged-in
+users.
+5. Add line numbers to the file data.txt, then sort the lines and remove duplicates.
+6. Create a symbolic link dir_link to a directory mydir, then find all .sh files in the directory and
+broadcast the result to all users using wall.
+7. Display the first 5 lines and the last 5 lines of file.txt.
+8. Find all .log files, sort them alphabetically, and remove duplicates if any.

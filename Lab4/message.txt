@@ -1,0 +1,8 @@
+hello everyone,
+this is a sample message file.
+linux commands are very powerful.
+practice makes a person perfect.
+always keep learning new skills.
+bash scripting is fun and useful.
+thank you for reading this message.
+have a great day ahead!

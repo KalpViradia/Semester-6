@@ -1,0 +1,39 @@
+LN(1)                                                                       User Commands                                                                      LN(1)
+
+NAME
+       ln - make links between files
+
+SYNOPSIS
+       ln [OPTION]... [-T] TARGET LINK_NAME
+       ln [OPTION]... TARGET
+       ln [OPTION]... TARGET... DIRECTORY
+       ln [OPTION]... -t DIRECTORY TARGET...
+
+DESCRIPTION
+       In  the  1st  form,  create a link to TARGET with the name LINK_NAME.  In the 2nd form, create a link to TARGET in the current directory.  In the 3rd and 4th
+       forms, create links to each TARGET in DIRECTORY.  Create hard links by default, symbolic links with --symbolic.  By default, each destination  (name  of  new
+       link)  should  not  already  exist.  When creating hard links, each TARGET must exist.  Symbolic links can hold arbitrary text; if later resolved, a relative
+       link is interpreted in relation to its parent directory.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       --backup[=CONTROL]
+              make a backup of each existing destination file
+
+       -b     like --backup but does not accept an argument
+
+       -d, -F, --directory
+              allow the superuser to attempt to hard link directories (note: will probably fail due to system restrictions, even for the superuser)
+
+       -f, --force
+              remove existing destination files
+
+       -i, --interactive
+              prompt whether to remove destinations
+
+       -L, --logical
+              dereference TARGETs that are symbolic links
+
+       -n, --no-dereference
+              treat LINK_NAME as a normal file if it is a symbolic link to a directory
+
