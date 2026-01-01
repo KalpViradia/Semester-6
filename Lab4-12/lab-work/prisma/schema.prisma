@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+model User {
+  userId   Int    @id @default(autoincrement())
+  userName String @db.VarChar(100)
+  email    String @db.VarChar(100)
+  age      Int
+
+  tasks    Task[]
+}
+
+model Task {
+  taskId          Int     @id @default(autoincrement())
+  taskTitle       String @db.VarChar(150)
+  taskDescription String @db.VarChar(255)
+  isCompleted     Boolean @default(false)
+
+  userId Int
+  user   User @relation(fields: [userId], references: [userId], onDelete: Cascade)
+}
