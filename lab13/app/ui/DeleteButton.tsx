@@ -6,19 +6,13 @@ interface DeleteButtonProps {
     id: number;
 }
 
-const DeleteButton: React.FC<DeleteButtonProps> = ({ id }) => {
-    const handleDelete = async () => {
-        try {
-            await DeleteUserAction(id);
-            alert("User deleted successfully!");
-            window.location.href = "/users";
-        } catch (error) {
-            console.error(error);
-            alert("Failed to delete user.");
-        }
-    };
-
-    return <button onClick={handleDelete}>Delete</button>;
-};
+function DeleteButton(paramas: DeleteButtonProps) {
+    const { id } = paramas;
+    return (
+        <button onClick={() => {
+            DeleteUserAction(id)
+        }}>Delete</button>
+    )
+}
 
 export default DeleteButton;
