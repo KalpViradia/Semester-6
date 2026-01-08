@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+model tasks {
+  TaskID          Int      @id @default(autoincrement())
+  TaskTitle       String?  @db.VarChar(100)
+  TaskDescription String?  @db.Text
+  IsCompleted     Boolean?
+  UserID          Int?
+  users           users?   @relation(fields: [UserID], references: [UserID], onDelete: NoAction, onUpdate: NoAction, map: "tasks_ibfk_1")
+
+  @@index([UserID], map: "UserID")
+}
+
+model users {
+  UserID   Int     @id @default(autoincrement())
+  UserName String? @db.VarChar(50)
+  Password String? @db.VarChar(50)
+  tasks    tasks[]
+}
