@@ -8,7 +8,6 @@ function MessageInput({ onSendMessage, onTyping }) {
   const handleChange = (e) => {
     setMessage(e.target.value);
     
-    // Emit typing event
     onTyping(true);
     
     clearTimeout(typingTimeoutRef.current);
@@ -39,7 +38,7 @@ function MessageInput({ onSendMessage, onTyping }) {
       <input
         type="text"
         className="message-input"
-        placeholder="Type a message... (Shift+Enter for new line)"
+        placeholder="Type a message..."
         value={message}
         onChange={handleChange}
         onKeyPress={handleKeyPress}
