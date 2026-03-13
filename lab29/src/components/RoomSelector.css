@@ -1,0 +1,86 @@
+.room-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.room-title {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.rooms-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px 0;
+}
+
+.room-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: #f0f0f0;
+  color: #333;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.room-button:hover {
+  background: #e0e0e0;
+}
+
+.room-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+}
+
+.room-icon {
+  font-weight: 700;
+}
+
+.room-name {
+  text-transform: capitalize;
+}
+
+/* Scrollbar styling for rooms list */
+.rooms-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.rooms-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.rooms-list::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.rooms-list::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+
+@media (max-width: 768px) {
+  .room-selector {
+    padding: 12px 15px;
+  }
+
+  .room-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
